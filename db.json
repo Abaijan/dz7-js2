@@ -1,0 +1,89 @@
+{
+    "clothes": [
+        {
+            "id": 1,
+            "image": "./images/image.png",
+            "name": "Shirt with insertion lace trims",
+            "price": 49.95,
+            "favorite": "./images/wishlist.svg",
+            "rating": "./images/rating.svg",
+            "popularity": "less popular"
+        },
+        {
+            "id": 2,
+            "image": "./images/image-1.png",
+            "name": "Mid-rise slim cropped fit jeans",
+            "price": 40.00,
+            "favorite": "./images/wishlist.svg",
+            "rating": "hello",
+            "popularity": "popular"
+        },
+        {
+            "id": 3,
+            "image": "./images/image-2.png",
+            "name": "Black and white sport cap",
+            "price": 18.15,
+            "favorite": "./images/wishlist.svg",
+            "rating": "./images/rating.svg",
+            "popularity": "popular"
+        },
+        {
+            "id": 4,
+            "image": "./images/image-3.png",
+            "name": "Green baby romper",
+            "price": 20.40,
+            "favorite": "./images/wishlist.svg",
+            "rating": "./images/rating.svg",
+            "sale": "./images/sale-badge.svg",
+            "popularity": "popular"
+        },
+        {
+            "id": 5,
+            "image": "./images/image-4.png",
+            "name": "Check coat with colour contrast",
+            "price": 183.45,
+            "favorite": "./images/wishlist.svg",
+            "rating": "Hello",
+            "popularity": "less popular"
+        },
+        {
+            "id": 6,
+            "image": "./images/image-5.png",
+            "name": "Red dangle earrings",
+            "price": 29.5,
+            "favorite": "./images/wishlist.svg",
+            "rating": "./images/rating.svg",
+            "sale": "./images/sale-badge.svg",
+            "popularity": "less popular"
+        },
+        {
+            "id": 7,
+            "image": "./images/image-8 (1).png",
+            "name": "Chrono watch with blue...",
+            "price": 120.60,
+            "favorite": "./images/wishlist.svg",
+            "rating": "Hello",
+            "sale": "./images/sale-badge.svg",
+            "popularity": "popular"
+        },
+        {
+            "id": 8,
+            "image": "./images/image-8 (2).png",
+            "name": "Baby shoes with laces",
+            "price": 30.60,
+            "favorite": "./images/wishlist.svg",
+            "rating": "./images/rating.svg",
+            "popularity": "popular"
+        },
+        {
+            "id": 9,
+            "image": "./images/image-9.png",
+            "name": "Basic hooded sweatshirt in pink",
+            "price": 15.50,
+            "favorite": "./images/wishlist.svg",
+            "rating": "Hello",
+            "sale": "./images/sale-badge.svg",
+            "popularity": "popular"
+        }
+    ]
+}

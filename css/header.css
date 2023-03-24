@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 400px;
+    margin: auto;
+}
+
+header {
+    height: 120px;
+    /* display: flex;*/
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.header-left {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.header-menu-list>ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: lato;
+    font-weight: 700;
+}
+
+.header-menu-list>li {
+    color: black;
+}
+.header-menu-list li:hover{
+    transition: all 0.3s;
+    color: red;
+}
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-inputs {
+    position: relative;
+    width: 320px;
+    height: 40px;
+}
+
+.header-input {
+    position: relative;
+    width: 320px;
+  
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #D7DADD;
+    padding-left: 15px;
+}
+@media(max-width:380px){
+    .header-input{
+        max-width: 150px;
+    }
+}
+
+.header-input-icon {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.header-sub {
+    height: 30px;
+    padding-top: 6px;
+    text-align: center;
+    background-color: #17696A;
+}
+
+.header-sub-text {
+    font-family: lato;
+    font-size: 15px;
+    color: white;
+}
+
+.header-sub-sub {
+    height: 40px;
+    background-color: #F4F5F6;
+    margin-bottom: 1%;
+   
+}
+
+.sub-left {
+    margin-left: 55px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.catalog{
+    width: 100%;
+    height: 100%;
+    }
+.filters{
+    display: flex;
+    height: 45px;
+    gap: 50px;
+    
+}
+.sort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sort> h2,
+.show> h2{
+    font-family:lato;
+    font-weight: 700;
+    font-size:40x;
+}
+.sort-select{
+    height: 45px;
+    width: 170px;
+}
+.show{
+    display: flex ;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+.show > p{
+    font-family: lato;
+    font-weight: 400 ;
+    color: #00000060;
+}
+.show-input{
+    width: 73px;
+    height: 40px;
+    padding: 18px;
+    border-radius: 3px;
+    border: 1px solid gray;
+
+}
+.filter-btn{
+    width: 225px;
+    height:45px;
+    border-radius: 4px;
+    border: none; background-color: #17696A;
+    text-align: center;
+    color: #F4F5F6;
+
+}
+.filter-btn-icon{
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    
+}
+.btn-filter{
+    position: relative;
+}
+.morefilters{
+    display: flex;
+    width: 225px;
+    min-height: 400px;
+    max-height: 600px;
+}
+.categories{
+    width: 225px;
+    margin-top: 50px;
+    /* display: flex; */
+}
+.div-catecory > h2{
+    font-family: lato;
+    font-weight: 700;
+    font-size: 20px
+}
+.div-catecory{
+    width: 225px;
+    height: 65px;
+    display: flex;
+    text-align: center;  
+    padding-top: 15px;
+    justify-content: space-between;
+    border-bottom: 3px solid #F4F5F6;
+    cursor: pointer;
+}
+.div-catecory> svg{
+    margin-top: 8px;
+}
+.products{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 110px;
+    margin: 60px;
+}
+.product-price{
+    font-family: lato;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+.product-price:hover{
+    color: red;
+}
+.product-name{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cart{
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+
+
+.product-image {
+  position: absolute;
+  right: 22px;
+  bottom: 94px;
+}
+
+.rating-Img {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
